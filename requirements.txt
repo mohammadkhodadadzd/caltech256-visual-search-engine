@@ -1,6 +1,6 @@
 # requirements.txt
 torch
-clip-by-openai
+git+https://github.com/openai/CLIP.git -q
 faiss-gpu
 gradio
 numpy
