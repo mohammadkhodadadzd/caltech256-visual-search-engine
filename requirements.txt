@@ -1,0 +1,8 @@
+# requirements.txt
+torch
+clip-by-openai
+faiss-gpu
+gradio
+numpy
+tqdm
+Pillow
