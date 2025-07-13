@@ -1,7 +1,5 @@
 # requirements.txt
 torch
-clip
-faiss-gpu
 gradio
 numpy
 tqdm
