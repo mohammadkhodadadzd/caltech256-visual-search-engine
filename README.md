@@ -53,3 +53,11 @@ A lightning-fast image similarity search engine powered by [OpenAI CLIP](https:/
 - Clear English code & documentation
 
 ---
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests.  
+Star the repo if you like it!
+
+---
+
+Made with ❤️ by [Mohammad Khodadad](https://github.com/mohammadkhodadadzd)
