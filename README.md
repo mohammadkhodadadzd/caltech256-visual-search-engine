@@ -2,6 +2,7 @@
 
 A lightning-fast image similarity search engine powered by [OpenAI CLIP](https://github.com/openai/CLIP) and [FAISS](https://github.com/facebookresearch/faiss), built for the Caltech256 image dataset.
 
+![Visual Similarity Search](assets/image1.png)
 ---
 
 ## 📚 About the Caltech256 Dataset
