@@ -13,7 +13,7 @@ A lightning-fast image similarity search engine powered by [OpenAI CLIP](https:/
 
 **More info & download:**  
 - [Official Caltech256 page](https://data.caltech.edu/records/nyy15-4j048)
-- [Direct download link (5.5 GB, tar)](https://data.caltech.edu/records/nyy15-4j048/files/256_ObjectCategories.tar?download=1)
+- [Direct download link (1.2 GB, tar)](https://data.caltech.edu/records/nyy15-4j048/files/256_ObjectCategories.tar?download=1)
 ---
 ## 🚀 How It Works
 
