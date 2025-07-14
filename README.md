@@ -12,8 +12,9 @@ A lightning-fast image similarity search engine powered by [OpenAI CLIP](https:/
 - Each category is a separate folder, named like `001.ak47`, `002.american-flag`, ..., `256.yin-yang`
 
 **More info & download:**  
-- [Official Caltech256 page](https://data.caltech.edu/records/20086](http://www.vision.caltech.edu/Image_Datasets/Caltech256)
-
+- [Official Caltech256 page](https://data.caltech.edu/records/nyy15-4j048)
+- [Direct download link (5.5 GB, tar)](https://data.caltech.edu/records/nyy15-4j048/files/256_ObjectCategories.tar?download=1)
+---
 ## 🚀 How It Works
 
 - **Feature Extraction:** Every image in the dataset is encoded into a 512-dim feature vector by CLIP ViT-B/32.
