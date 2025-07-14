@@ -23,10 +23,10 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 MODEL_NAME = "ViT-B/32"
 
-DATASET_PATH = "/kaggle/input/caltech256/256_ObjectCategories"
+DATASET_PATH = "./256_ObjectCategories"
 
-FAISS_INDEX_PATH = "/kaggle/working/faiss_index.bin"
-IMAGE_PATHS_PATH = "/kaggle/working/image_paths.npy"
+FAISS_INDEX_PATH = "./faiss_index.bin"
+IMAGE_PATHS_PATH = "./image_paths.npy"
 
 print(f"Using device: {DEVICE}")
 print(f"Dataset path: {DATASET_PATH}")
