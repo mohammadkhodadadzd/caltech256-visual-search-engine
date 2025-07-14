@@ -1,11 +1,11 @@
 import os
 import numpy as np
 import faiss
+import glob
 from tqdm import tqdm
 from feature_extractor import extract_features
 
 def get_all_image_paths(directory):
-    import glob
     return glob.glob(f"{directory}/**/*.jpg", recursive=True)
 
 def build_faiss_index(features, device="cpu"):
@@ -17,7 +17,7 @@ def build_faiss_index(features, device="cpu"):
     index.add(features.astype("float32"))
     return index
 
-def get_or_build_index(dataset_path, model, preprocess, faiss_index_path, image_paths_path, batch_size=128, device="cpu"):
+def get_or_build_index(dataset_path, model, preprocess, faiss_index_path, image_paths_path, batch_size=512, device="cpu"):
     if os.path.exists(faiss_index_path) and os.path.exists(image_paths_path):
         print("Loading FAISS index and image paths...")
         faiss_index = faiss.read_index(faiss_index_path)
@@ -29,7 +29,7 @@ def get_or_build_index(dataset_path, model, preprocess, faiss_index_path, image_
                 pass
         image_paths = np.load(image_paths_path, allow_pickle=True).tolist()
     else:
-        print("Building FAISS index...")
+        print("Building FAISS index (may take a while first time)...")
         all_paths = get_all_image_paths(dataset_path)
         features, image_paths = extract_features(all_paths, model, preprocess, device, batch_size)
         faiss_index = build_faiss_index(features, device)
