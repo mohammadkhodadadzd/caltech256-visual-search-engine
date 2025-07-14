@@ -38,6 +38,11 @@ A lightning-fast image similarity search engine powered by [OpenAI CLIP](https:/
 4. **Open the Gradio interface** in your browser, upload a query image, and see the results!
 
 ---
+## 🎬 Demo Video
+
+[▶️ Click here to watch the demo ](assets/test_video.mp4)
+
+---
 
 ## ✨ Features
 
