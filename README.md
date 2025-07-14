@@ -12,7 +12,7 @@ A lightning-fast image similarity search engine powered by [OpenAI CLIP](https:/
 - Each category is a separate folder, named like `001.ak47`, `002.american-flag`, ..., `256.yin-yang`
 
 **More info & download:**  
-- [Official Caltech256 page](https://data.caltech.edu/records/20086](http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
+- [Official Caltech256 page](https://data.caltech.edu/records/20086](http://www.vision.caltech.edu/Image_Datasets/Caltech256)
 
 ## 🚀 How It Works
 
